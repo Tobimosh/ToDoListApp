@@ -1,0 +1,27 @@
+:root{
+    --dark: #3e4c61;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --light: #EEE;
+    --pink: #EC4899;
+    --purple: #8B5CF6;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #FFF;
+    background-color: var(--dark);
+}
+header{
+    padding: 2rem 1rem;
+    max-width: 800px;
+}

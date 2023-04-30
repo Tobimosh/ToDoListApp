@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
@@ -12,8 +13,6 @@
         <form action=""id="new-task-form">
             <input type="text", id="input-task", placeholder="Add a task">
             <input type="submit", id="submit-task" value="Add task">
-
-
         </form>
     </header>
     <main>
@@ -24,11 +23,16 @@
                     <div class="content">
                         <input type="text" class="text" value="read and wash" readonly>
                     </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
                 </div>
             </div>
 
         </section>
     </main>
+    <script src="/app.js"></script>
     
 </body>
 </html>
