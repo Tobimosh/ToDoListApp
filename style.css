@@ -17,17 +17,23 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: #FFF;
-    background-color: var(--dark);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   color: #FFF;
+   background-color: var(--dark);
+   
 }
 header{
+    
     padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header h1{
@@ -144,8 +150,6 @@ input, button{
     font-weight: 700;
     text-transform: uppercase;
     transition: 0.4;
-
-
  }
 
  .task .actions button:hover{
@@ -166,6 +170,19 @@ input, button{
  .task .actions .delete{
     color: rgb(194, 10, 10);
     font-size: 1rem;
+ }
+
+
+
+ @media screen and (min-width: 768px) {
+   body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+   }
+   
  }
 
 
