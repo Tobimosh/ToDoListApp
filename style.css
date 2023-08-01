@@ -5,15 +5,13 @@
     --light: #EEE;
     --gray: #6B7280;
     --pink: #EC4899;
-    --purple: #8B5CF6;
-    
+    --purple: #8B5CF6;   
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Fira sans', sans-serif;
-
 }
 
 body{
@@ -22,11 +20,10 @@ body{
    align-items: center;
    height: 100vh;
    color: #FFF;
-   background-color: var(--dark);
-   
+   background-color: var(--dark);  
 }
+
 header{
-    
     padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
@@ -41,20 +38,18 @@ header h1{
     font-weight: 300;
     color: var(--gray);
     margin-bottom: 1rem;
-
 }
 #new-task-form{
     display: flex;
-
-
 }
+
 input, button{
     appearance: none;
     border: none;
     outline: none;
     background: none;
-
 }
+
 #input-task{
     flex-shrink: 1 1 0%;
     background-color: var(--darker);
@@ -66,7 +61,6 @@ input, button{
  } 
  #input-task::placeholder{
     color: var(--gray);
-
  }
  #submit-task{
     color: var(--pink);
@@ -77,9 +71,6 @@ input, button{
     -webkit-text-fill-color: transparent;
      cursor: pointer;
      transition: 0.4s;
-
-
-
  }
  #submit-task:hover{
     opacity: 0.8;
@@ -96,13 +87,10 @@ input, button{
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
-
-
  }
 
  .task-list{
     padding: 1rem;
-
  }
 
  .task-list h2{
@@ -110,8 +98,6 @@ input, button{
     font-weight: 300;
     color: var(--gray);
     margin-bottom: 1rem;
-
-
  }
  #tasks .task{
     display: flex;
@@ -120,9 +106,6 @@ input, button{
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
-
-
-
  }
  #tasks .task .content .text{
     color: var(--light);
@@ -130,8 +113,6 @@ input, button{
     width: 100%;
     display: block;
     transition: 0.4s;
-
-
  }
 
  #tasks .task .content .text:not(:read-only){
@@ -171,6 +152,7 @@ input, button{
     color: rgb(194, 10, 10);
     font-size: 1rem;
  }
+
 
 
 
