@@ -38,7 +38,7 @@ header h1{
     font-weight: 300;
     color: var(--gray);
     margin-bottom: 1rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 #new-task-form{
     display: flex;
@@ -57,7 +57,7 @@ input, button{
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 0.5rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     color: var(--light);
     font-size: 1.25rem;  
  } 
@@ -167,8 +167,28 @@ input, button{
    flex-direction: column;
    
  }
+ .header-container{
+   margin-left: 1rem;
+ }
 
+ @media screen and (max-width: 500px) {
+   .header-container {
+      margin: 0 1rem;
+      display: flex;
+      flex-direction: column; /* Change to column layout for better stacking */
+      align-items: center; /* Center horizontally */
+   }
 
+   .header-container h1 {
+      width: 100%; /* Ensure the header takes the full width */
+      text-align: center; /* Center the text within the header */
+      margin-bottom: 1rem; /* Add some space between the header and the input field */
+   }
 
+   #input-task {
+      width: 100%; /* Make the input field take full width */
+      margin-bottom: 1rem; /* Add spacing below the input field */
+   }
+}
 
  
