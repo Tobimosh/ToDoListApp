@@ -34,10 +34,11 @@ header{
 }
 
 header h1{
-    font-size:2.5rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: var(--gray);
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 #new-task-form{
     display: flex;
@@ -55,7 +56,8 @@ input, button{
     background-color: var(--darker);
     padding: 1rem;
     border-radius: 1rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
     color: var(--light);
     font-size: 1.25rem;  
  } 
@@ -157,19 +159,15 @@ input, button{
     font-size: 1rem;
  }
 
-
-
-
- @media screen and (min-width: 768px) {
-   body{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-   }
+ .block{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
    
  }
+
 
 
 
